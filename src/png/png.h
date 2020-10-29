@@ -3009,6 +3009,8 @@ PNG_EXPORT(237, int, png_image_finish_read, (png_imagep image,
     */
 
 PNG_EXPORT(238, void, png_image_free, (png_imagep image));
+
+PNG_EXPORT(245, void, png_init_filter_functions_neon, (png_structp png_ptr, unsigned int bpp));
    /* Free any data allocated by libpng in image->opaque, setting the pointer to
     * NULL.  May be called at any time after the structure is initialized.
     */
