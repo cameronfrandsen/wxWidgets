@@ -4495,11 +4495,5 @@ png_image_error(png_imagep image, png_const_charp error_message)
    return 0;
 }
 
-void
-png_init_filter_functions_neon(png_structp png_ptr, unsigned int bpp)
-{
-
-}
-
 #endif /* SIMPLIFIED READ/WRITE */
 #endif /* READ || WRITE */
