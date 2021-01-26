@@ -162,5 +162,4 @@
 #define png_safe_warning wx_png_safe_warning
 #define png_safe_execute wx_png_safe_execute
 #define png_image_error wx_png_image_error
-#define png_init_filter_functions_neon wx_png_init_filter_functions_neon
 #define png_check_keyword wx_png_check_keyword
